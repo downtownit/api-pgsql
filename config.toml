@@ -3,9 +3,7 @@ port = "9000"
 
 [database]
 host = "localhost"
+port = "5432"
 user = "user_todo"
 pass = "1122"
 name = "api_todo"
-# database = "postgres"
-
-# const connection = pgp()("postgres://downtownit:123456@localhost:5432/downtownit");

@@ -14,7 +14,6 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-
 	r := chi.NewRouter()
 	r.Post("/", handlers.Create)
 	r.Put("/{id}", handlers.Update)
